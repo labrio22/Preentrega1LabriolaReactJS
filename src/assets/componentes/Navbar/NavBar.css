@@ -1,0 +1,20 @@
+.NavBarMod{
+    
+    display:flex;
+    justify-content:space-between;
+    background-color: rgba(218, 132, 132, 0.629);
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavBarMod ul {
+        list-style: none; 
+        display: flex; 
+        padding: 0; 
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+.NavBarMod li {
+    font-size: 20px;
+    margin-right: 100px;
+}
