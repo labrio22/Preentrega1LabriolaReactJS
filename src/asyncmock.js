@@ -19,7 +19,7 @@ export const getProducto = (id)=> {
     return new Promise ((resolve) => {
         setTimeout(() => {
             ///devuelve el primer producto con el mismo id
-            const producto = productos.find(item => item.id === id)
+            const producto = productos.find(item => item.id === Number(id))
             resolve(producto)
         }, 100);
     })
